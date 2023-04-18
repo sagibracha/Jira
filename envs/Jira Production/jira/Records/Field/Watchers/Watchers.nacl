@@ -1,0 +1,8 @@
+jira.Field Watchers__watches {
+  name = "Watchers"
+  schema = {
+    type = "watches"
+    system = "watches"
+  }
+  description = ""
+}
