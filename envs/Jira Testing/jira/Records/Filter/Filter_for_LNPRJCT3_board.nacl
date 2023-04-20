@@ -1,0 +1,8 @@
+jira.Filter Filter_for_LNPRJCT3_board@s {
+  name = "Filter for LNPRJCT3 board"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Project__project } = LNPRJCT3 ORDER BY ${ jira.Field.instance.Rank__gh_lexo_rank__c@uubbuu.name } ASC"
+}

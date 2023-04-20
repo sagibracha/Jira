@@ -1,0 +1,18 @@
+jira.Filter testFilter250 {
+  name = "testFilter250"
+  description = "Lists all open bugs"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "type = Bug and ${ jira.Field.instance.Resolution__resolution } is empty"
+  editPermissions = [
+    {
+      type = "user"
+      user = {
+        id = "5fa91999b2633d0076583a61"
+        displayName = "Alon Stern"
+      }
+    },
+  ]
+}

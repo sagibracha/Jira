@@ -1,0 +1,5 @@
+jira.Status customer_interaction@s {
+  name = "Customer Interaction"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+  description = "Awaiting customer interaction"
+}

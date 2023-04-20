@@ -1,0 +1,28 @@
+jira.DashboardGadget AlonDashboard6__Activity_Streams4_0_2@uusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.streams.streams-jira-plugin:activitystream-gadget/gadgets/activitystream-gadget.xml"
+  color = "blue"
+  position = {
+    row = 2
+    column = 0
+  }
+  title = "Activity Streams4"
+  properties = {
+    config = {
+      isConfigured = "true"
+      titleRequired = "true"
+      numofentries = "20"
+      keys = ""
+      refresh = "false"
+      isReallyConfigured = "true"
+      rules = "%7B%22providers%22%3A%5B%7B%22disabled%22%3Afalse%2C%22provider%22%3A%22streams%22%2C%22rules%22%3A%5B%5D%7D%5D%7D"
+      title = "Activity%20Stream"
+      maxProviderLabelCharacters = "50"
+      itemKeys = ""
+      renderingContext = ""
+      username = ""
+    }
+  }
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard6,
+  ]
+}

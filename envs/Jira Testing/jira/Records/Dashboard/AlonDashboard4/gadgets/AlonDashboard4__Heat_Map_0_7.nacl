@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard4__Heat_Map_0_7@uusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:heat-map-gadget/gadgets/heatmap-gadget.xml"
+  color = "blue"
+  position = {
+    row = 7
+    column = 0
+  }
+  title = "Heat Map"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard4,
+  ]
+}

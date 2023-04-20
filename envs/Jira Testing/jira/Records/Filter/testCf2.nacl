@@ -1,0 +1,8 @@
+jira.Filter testCf2 {
+  name = "testCf2"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Status__status } IN (${ jira.Status.instance.done.name }, \"${ jira.Status.instance.to_do@s.name }\") AND ${ jira.Field.instance.Issue_Type__issuetype@suu } = ${ jira.IssueType.instance.Bug.name }"
+}

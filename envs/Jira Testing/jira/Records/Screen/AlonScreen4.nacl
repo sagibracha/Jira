@@ -1,0 +1,10 @@
+jira.Screen AlonScreen4 {
+  tabs = {
+    asd = {
+      name = "asd"
+      position = 0
+    }
+  }
+  name = "AlonScreen4"
+  description = ""
+}

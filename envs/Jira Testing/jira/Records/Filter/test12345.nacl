@@ -1,0 +1,9 @@
+jira.Filter test12345 {
+  name = "test12345"
+  description = "Filter managed by ScriptRunner: issuetype = bug"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Issue_Type__issuetype@suu } = ${ jira.IssueType.instance.Bug.name }"
+}

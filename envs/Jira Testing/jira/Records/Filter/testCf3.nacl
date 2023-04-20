@@ -1,0 +1,8 @@
+jira.Filter testCf3 {
+  name = "testCf3"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Status__status } = \"${ jira.Status.instance.to_do@s.name }\""
+}

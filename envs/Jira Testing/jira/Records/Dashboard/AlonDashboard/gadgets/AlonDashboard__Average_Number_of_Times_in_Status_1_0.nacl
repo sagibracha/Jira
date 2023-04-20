@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard__Average_Number_of_Times_in_Status_1_0@uusssssuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:numberoftimesinstatus-gadget/com/atlassian/jira/ext/charting/gadget/numberoftimesinstatus-gadget.xml"
+  color = "blue"
+  position = {
+    row = 0
+    column = 1
+  }
+  title = "Average Number of Times in Status"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard,
+  ]
+}

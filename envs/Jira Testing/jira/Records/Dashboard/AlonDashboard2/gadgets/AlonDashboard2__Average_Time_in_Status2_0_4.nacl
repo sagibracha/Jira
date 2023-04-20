@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard2__Average_Time_in_Status2_0_4@uusssuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:timeinstatus-gadget/com/atlassian/jira/ext/charting/gadget/timeinstatus-gadget.xml"
+  color = "blue"
+  position = {
+    row = 4
+    column = 0
+  }
+  title = "Average Time in Status2"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard2,
+  ]
+}

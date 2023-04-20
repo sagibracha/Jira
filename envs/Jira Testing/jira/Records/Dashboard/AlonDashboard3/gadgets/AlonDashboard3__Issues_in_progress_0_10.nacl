@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard3__Issues_in_progress_0_10@uussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:in-progress-gadget/gadgets/in-progress-gadget.xml"
+  color = "blue"
+  position = {
+    row = 10
+    column = 0
+  }
+  title = "Issues in progress"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard3,
+  ]
+}

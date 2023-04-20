@@ -1,0 +1,9 @@
+jira.Filter testCf6 {
+  name = "testCf6"
+  description = ""
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Project__project } = TSTSMRTVLS AND testNumber2 = 124 OR \"testNumber2[Number]\" = 125"
+}

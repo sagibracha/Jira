@@ -1,0 +1,9 @@
+jira.Dashboard AlonDashboard11 {
+  description = ""
+  name = "AlonDashboard11"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  layout = "AA"
+}

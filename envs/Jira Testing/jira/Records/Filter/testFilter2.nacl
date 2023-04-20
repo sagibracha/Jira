@@ -1,0 +1,8 @@
+jira.Filter testFilter2 {
+  name = "testFilter2"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Project__project } = \"Project Playground\" AND \"Time to resolution\" = breached()"
+}

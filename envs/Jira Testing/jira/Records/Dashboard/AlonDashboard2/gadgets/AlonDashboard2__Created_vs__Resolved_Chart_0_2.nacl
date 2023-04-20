@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard2__Created_vs__Resolved_Chart_0_2@uusvssuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:created-vs-resolved-issues-chart-gadget/gadgets/createdvsresolved-gadget.xml"
+  color = "blue"
+  position = {
+    row = 2
+    column = 0
+  }
+  title = "Created vs. Resolved Chart"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard2,
+  ]
+}

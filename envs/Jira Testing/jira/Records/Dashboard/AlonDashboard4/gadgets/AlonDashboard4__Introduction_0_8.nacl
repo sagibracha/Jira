@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard4__Introduction_0_8 {
+  moduleKey = "com.atlassian.jira.gadgets:introduction-dashboard-item"
+  color = "blue"
+  position = {
+    row = 8
+    column = 0
+  }
+  title = "Introduction"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard4,
+  ]
+}

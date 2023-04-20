@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard7__Assigned_to_Me_0_1@uussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:assigned-to-me-gadget/gadgets/assigned-to-me-gadget.xml"
+  color = "blue"
+  position = {
+    row = 1
+    column = 0
+  }
+  title = "Assigned to Me"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard7,
+  ]
+}

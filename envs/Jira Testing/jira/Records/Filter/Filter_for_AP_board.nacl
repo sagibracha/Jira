@@ -1,0 +1,8 @@
+jira.Filter Filter_for_AP_board@s {
+  name = "Filter for AP board"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Project__project } = AP ORDER BY ${ jira.Field.instance.Rank__gh_lexo_rank__c@uubbuu.name } ASC"
+}
