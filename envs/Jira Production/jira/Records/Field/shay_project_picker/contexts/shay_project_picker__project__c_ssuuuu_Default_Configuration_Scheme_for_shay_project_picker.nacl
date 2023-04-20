@@ -4,7 +4,7 @@ jira.CustomFieldContext shay_project_picker__project__c_ssuuuu_Default_Configura
   isGlobalContext = true
   defaultValue = {
     type = "project"
-    projectId = jira.Project.instance.Incidents
+    projectId = jira.Project.instance.AlonCompanyProject
   }
   _parent = [
     jira.Field.instance.shay_project_picker__project__c@ssuuuu,
