@@ -1,0 +1,23 @@
+jira.DashboardGadget AlonDashboard6__Bubble_Chart_2_1@uusuu {
+  moduleKey = "com.atlassian.jira.gadgets:bubble-chart-dashboard-item"
+  color = "blue"
+  position = {
+    row = 1
+    column = 2
+  }
+  title = "Bubble Chart"
+  properties = {
+    bubbleType = "participants"
+    id = 10024
+    isConfigured = true
+    name = "AlonCompanyProject"
+    recentCommentsPeriod = 7
+    refresh = 15
+    type = "project"
+    useLogarithmicScale = false
+    useRelativeColoring = true
+  }
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard6,
+  ]
+}

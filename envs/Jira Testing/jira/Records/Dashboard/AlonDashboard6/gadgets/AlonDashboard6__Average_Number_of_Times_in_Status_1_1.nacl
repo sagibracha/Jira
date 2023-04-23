@@ -1,0 +1,27 @@
+jira.DashboardGadget AlonDashboard6__Average_Number_of_Times_in_Status_1_1@uusssssuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.ext.charting:numberoftimesinstatus-gadget/com/atlassian/jira/ext/charting/gadget/numberoftimesinstatus-gadget.xml"
+  color = "blue"
+  position = {
+    row = 1
+    column = 1
+  }
+  title = "Average Number of Times in Status"
+  properties = {
+    config = {
+      isConfigured = "true"
+      isPopup = "false"
+      name = "AlonCompanyProject"
+      refresh = "false"
+      statuses = ""
+      periodName = "daily"
+      projectOrFilterId = "project-10024"
+      daysprevious = "30"
+      yaxisPeriod = "hourly"
+      id = "10024"
+      type = "project"
+    }
+  }
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard6,
+  ]
+}

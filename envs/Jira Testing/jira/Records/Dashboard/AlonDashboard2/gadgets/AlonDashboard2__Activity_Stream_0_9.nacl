@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard2__Activity_Stream_0_9@uusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.streams.streams-jira-plugin:activitystream-gadget/gadgets/activitystream-gadget.xml"
+  color = "yellow"
+  position = {
+    row = 9
+    column = 0
+  }
+  title = "Activity Stream"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard2,
+  ]
+}

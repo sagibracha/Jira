@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard7__Wallboard_Spacer_Gadget_0_0@uussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.atlassian-wallboard-plugin:spacer-gadget/gadgets/spacerGadget.xml"
+  color = "blue"
+  position = {
+    row = 0
+    column = 0
+  }
+  title = "Wallboard Spacer Gadget"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard7,
+  ]
+}

@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard3__Filter_Results_0_6@uusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:filter-results-gadget/gadgets/filter-results-gadget.xml"
+  color = "blue"
+  position = {
+    row = 6
+    column = 0
+  }
+  title = "Filter Results"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard3,
+  ]
+}

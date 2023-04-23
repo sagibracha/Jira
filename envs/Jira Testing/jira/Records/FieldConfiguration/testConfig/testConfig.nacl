@@ -1,0 +1,4 @@
+jira.FieldConfiguration testConfig {
+  name = "testConfig"
+  description = ""
+}

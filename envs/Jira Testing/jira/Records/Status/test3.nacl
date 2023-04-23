@@ -1,0 +1,5 @@
+jira.Status test3 {
+  description = "desc"
+  name = "test3"
+  statusCategory = jira.StatusCategory.instance.In_Progress@s
+}

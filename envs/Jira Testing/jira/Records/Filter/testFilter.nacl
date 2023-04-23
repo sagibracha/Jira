@@ -1,0 +1,20 @@
+jira.Filter testFilter {
+  name = "testFilter"
+  description = ""
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "${ jira.Field.instance.Project__project } = ${ jira.Project.instance.Gil_s_Project@ts } order by ${ jira.Field.instance.Created__datetime } DESC"
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.AlonCompanyProject
+      }
+      role = {
+        id = jira.ProjectRole.instance.aaa
+      }
+    },
+  ]
+}

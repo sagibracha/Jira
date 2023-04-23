@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard2__Filter_counts_0_0@uusuu {
+  moduleKey = "com.atlassian.servicedesk.dashboard-items-plugin:filter-count-dashboard-item"
+  color = "blue"
+  position = {
+    row = 0
+    column = 0
+  }
+  title = "Filter counts"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard2,
+  ]
+}

@@ -1,0 +1,10 @@
+jira.Screen shay_screen@s {
+  tabs = {
+    Field_Tab@s = {
+      name = "Field Tab"
+      position = 0
+    }
+  }
+  name = "shay screen"
+  description = "desc"
+}

@@ -1,0 +1,189 @@
+jira.Project Incidents {
+  key = "LNCMPNPRJC"
+  description = ""
+  name = "Incidents"
+  projectTypeKey = "software"
+  components = [
+    jira.ProjectComponent.instance.Incidents__test,
+    jira.ProjectComponent.instance.Incidents__test2,
+  ]
+  workflowScheme = jira.WorkflowScheme.instance.1801BugWorkflowScheme4
+  permissionScheme = jira.PermissionScheme.instance.AlonPermissionScheme
+  notificationScheme = jira.NotificationScheme.instance.Default_Notification_Scheme@s
+  issueSecurityScheme = jira.SecurityScheme.instance.name
+  issueTypeScreenScheme = jira.IssueTypeScreenScheme.instance.INCIDENT__Software_Development_Issue_Type_Screen_Scheme@fssssss
+  issueTypeScheme = jira.IssueTypeScheme.instance.Default_Issue_Type_Scheme@s
+  fieldConfigurationScheme = jira.FieldConfigurationScheme.instance.test
+  leadAccountId = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  fieldContexts = [
+    jira.CustomFieldContext.instance.testVersionPicker__multiversion__c_Default_Configuration_Scheme_for_testVersionPicker@uuuuussss,
+    jira.CustomFieldContext.instance.Version_Picker__single_version___version__c_ssjskuuuu_second@uuuuuuuuumu,
+  ]
+  _generated_dependencies = [
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Affects_versions__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Assignee__user@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Attachment__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Components__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Description__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Due_date__date_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Environment__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Fix_versions__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Incident_Severity__select__c_suuuu@uumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Issue_Type__issuetype_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Labels__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Linked_Issues__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Priority__priority@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Related_Customers__labels__c_suuuu@uumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Reporter__user@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Security_Level__securitylevel_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Summary__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config2_s_Time_tracking__timetracking_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Affects_versions__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Assignee__user@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Attachment__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Components__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Description__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Due_date__date_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Environment__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Fix_versions__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Incident_Severity__select__c_suuuu@uumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Issue_Type__issuetype_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Labels__array@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Linked_Issues__array_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Priority__priority@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Related_Customers__labels__c_suuuu@uumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Reporter__user@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Security_Level__securitylevel_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Summary__string@uumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Custom_field_config_s_Time_tracking__timetracking_suu@uumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Affects_versions__array_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Assignee__user@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Attachment__array@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Components__array@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Description__string@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Due_date__date_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Environment__string@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Fix_versions__array_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Incident_Severity__select__c_suuuu@uuuuuuumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Issue_Type__issuetype_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Labels__array@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Linked_Issues__array_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Priority__priority@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Related_Customers__labels__c_suuuu@uuuuuuumuuuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Reporter__user@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Security_Level__securitylevel_suu@uuuuuuumuuuum
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Summary__string@uuuuuuumuuu
+    },
+    {
+      reference = jira.FieldConfigurationItem.instance.Jira_Service_Management_Field_Configuration_for_Project_IP_s_Time_tracking__timetracking_suu@uuuuuuumuuuum
+    },
+  ]
+}

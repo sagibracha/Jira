@@ -1,0 +1,20 @@
+jira.Filter testFilter24 {
+  name = "testFilter24"
+  description = "Lists all open bugs"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  jql = "type = Bug and ${ jira.Field.instance.Resolution__resolution } is empty"
+  sharePermissions = [
+    {
+      type = "project"
+      project = {
+        id = jira.Project.instance.AlonCompanyProject
+      }
+      role = {
+        id = jira.ProjectRole.instance.aaa
+      }
+    },
+  ]
+}

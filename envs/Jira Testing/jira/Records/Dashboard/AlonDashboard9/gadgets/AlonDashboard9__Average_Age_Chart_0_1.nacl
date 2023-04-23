@@ -1,0 +1,25 @@
+jira.DashboardGadget AlonDashboard9__Average_Age_Chart_0_1@uussuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:average-age-chart-gadget/gadgets/average-age-gadget.xml"
+  color = "blue"
+  position = {
+    row = 1
+    column = 0
+  }
+  title = "Average Age Chart"
+  properties = {
+    config = {
+      isConfigured = "true"
+      isPopup = "false"
+      name = "AlonCompanyProject"
+      refresh = "false"
+      periodName = "daily"
+      projectOrFilterId = "project-10024"
+      daysprevious = "30"
+      id = "10024"
+      type = "project"
+    }
+  }
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard9,
+  ]
+}

@@ -1,0 +1,17 @@
+jira.Dashboard AlonDashboard9 {
+  description = ""
+  name = "AlonDashboard9"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  gadgets = [
+    jira.DashboardGadget.instance.AlonDashboard9__Assigned_to_Me_0_0@uussuu,
+    jira.DashboardGadget.instance.AlonDashboard9__Activity_Streams3_0_0@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard9__Average_Age_Chart_0_1@uussuu,
+    jira.DashboardGadget.instance.AlonDashboard9__Average_Time_in_Status_0_2@uusssuu,
+    jira.DashboardGadget.instance.AlonDashboard9__Bubble_Chart_0_3@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard9__Activity_Streams4_1_0@uusuu,
+  ]
+  layout = "AA"
+}

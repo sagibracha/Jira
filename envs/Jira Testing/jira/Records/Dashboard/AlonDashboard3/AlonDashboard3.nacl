@@ -1,0 +1,23 @@
+jira.Dashboard AlonDashboard3 {
+  description = ""
+  name = "AlonDashboard3"
+  owner = {
+    id = "5fa91999b2633d0076583a61"
+    displayName = "Alon Stern"
+  }
+  gadgets = [
+    jira.DashboardGadget.instance.AlonDashboard3__Average_Age_Chart_0_0@uussuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Assigned_to_Me_0_1@uussuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Activity_Stream_0_2@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Average_Number_of_Times_in_Status_0_3@uusssssuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Days_Remaining_in_Sprint_Gadget_0_4@uussssuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Filter_counts_0_5@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Filter_Results_0_6@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Heat_Map_0_7@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Introduction_0_8,
+    jira.DashboardGadget.instance.AlonDashboard3__Issue_Statistics_0_9@uusuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Issues_in_progress_0_10@uussuu,
+    jira.DashboardGadget.instance.AlonDashboard3__Average_Time_in_Status_0_11@uusssuu,
+  ]
+  layout = "AAA"
+}

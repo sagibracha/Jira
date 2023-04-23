@@ -1,0 +1,12 @@
+jira.DashboardGadget AlonDashboard3__Issue_Statistics_0_9@uusuu {
+  uri = "rest/gadgets/1.0/g/com.atlassian.jira.gadgets:stats-gadget/gadgets/stats-gadget.xml"
+  color = "blue"
+  position = {
+    row = 9
+    column = 0
+  }
+  title = "Issue Statistics"
+  _parent = [
+    jira.Dashboard.instance.AlonDashboard3,
+  ]
+}
