@@ -1,6 +1,6 @@
 jira.Configuration {
   votingEnabled = true
-  watchingEnabled = true
+  watchingEnabled = false
   unassignedIssuesAllowed = true
   subTasksEnabled = true
   issueLinkingEnabled = true
