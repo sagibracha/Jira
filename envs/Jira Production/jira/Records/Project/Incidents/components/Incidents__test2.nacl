@@ -1,0 +1,8 @@
+jira.ProjectComponent Incidents__test2 {
+  name = "test2"
+  assigneeType = "PROJECT_LEAD"
+  _parent = [
+    jira.Project.instance.Incidents,
+  ]
+  _alias = "Incidents:test2"
+}

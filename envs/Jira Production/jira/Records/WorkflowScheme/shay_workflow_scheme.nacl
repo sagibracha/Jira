@@ -1,0 +1,46 @@
+jira.WorkflowScheme shay_workflow_scheme@s {
+  name = "shay workflow scheme"
+  defaultWorkflow = jira.Workflow.instance.jira
+  items = [
+    {
+      workflow = jira.Workflow.instance.TEST__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss
+      issueType = jira.IssueType.instance.Bug
+    },
+    {
+      workflow = jira.Workflow.instance.Alon_s_Test_Workflow_22c@tsss
+      issueType = jira.IssueType.instance.New_Feature@s
+    },
+    {
+      workflow = jira.Workflow.instance.Alon_s_Test_Workflow_22c@tsss
+      issueType = jira.IssueType.instance._System__Incident@his
+    },
+    {
+      workflow = jira.Workflow.instance.TEST__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss
+      issueType = jira.IssueType.instance.Bug3
+    },
+    {
+      workflow = jira.Workflow.instance.TEST__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss
+      issueType = jira.IssueType.instance.Bug4
+    },
+    {
+      workflow = jira.Workflow.instance.Alon_s_Test_Workflow_22c@tsss
+      issueType = jira.IssueType.instance.Questions_for_facilities@s
+    },
+    {
+      workflow = jira.Workflow.instance.Alon_s_Test_Workflow_22c@tsss
+      issueType = jira.IssueType.instance.IT_Help@s
+    },
+    {
+      workflow = jira.Workflow.instance.TEST__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss
+      issueType = jira.IssueType.instance.Bug5
+    },
+    {
+      workflow = jira.Workflow.instance.TEST__Service_Request_Fulfilment_with_Approvals_workflow_for_Jira_Service_Management@fssssssssss
+      issueType = jira.IssueType.instance.bug6
+    },
+    {
+      workflow = jira.Workflow.instance.Alon_s_Test_Workflow_22c@tsss
+      issueType = jira.IssueType.instance.justfordeleting
+    },
+  ]
+}

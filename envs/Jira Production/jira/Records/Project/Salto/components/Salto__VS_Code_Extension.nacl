@@ -1,0 +1,8 @@
+jira.ProjectComponent Salto__VS_Code_Extension@uuss {
+  name = "VS Code Extension"
+  assigneeType = "PROJECT_DEFAULT"
+  _parent = [
+    jira.Project.instance.Salto,
+  ]
+  _alias = "Salto:VS Code Extension"
+}

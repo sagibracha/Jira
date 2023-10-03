@@ -1,0 +1,12 @@
+jira.ProjectComponent Salto__Zendesk_Adapter@uus {
+  name = "Zendesk Adapter"
+  assigneeType = "COMPONENT_LEAD"
+  leadAccountId = {
+    id = "5eea285a41f7000abb1b049d"
+    displayName = "Neta Marcus"
+  }
+  _parent = [
+    jira.Project.instance.Salto,
+  ]
+  _alias = "Salto:Zendesk Adapter"
+}

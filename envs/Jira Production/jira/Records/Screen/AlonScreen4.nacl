@@ -1,0 +1,13 @@
+jira.Screen AlonScreen4 {
+  tabs = {
+    Field_Tab2@s = {
+      name = "Field Tab2"
+      fields = [
+        jira.Field.instance.guytest__float__c,
+      ]
+      position = 0
+    }
+  }
+  name = "AlonScreen4"
+  description = ""
+}

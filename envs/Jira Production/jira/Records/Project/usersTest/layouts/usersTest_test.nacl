@@ -1,0 +1,38 @@
+jira.IssueLayout usersTest_test {
+  projectId = jira.Project.instance.usersTest
+  extraDefinerId = jira.Screen.instance.test
+  issueLayoutConfig = {
+    items = [
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Assignee__user
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Reporter__user
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Affected_hardware__textfield__c@suuuu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Story_Points__float__c@suuuu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Original_estimate__number@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Time_tracking__timetracking@suu
+      },
+    ]
+  }
+}

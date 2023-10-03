@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_option_globalsharing@v {
+  id = "jira.option.globalsharing"
+  value = "true"
+  name = "jira.option.globalsharing"
+  type = "boolean"
+  defaultValue = "false"
+}

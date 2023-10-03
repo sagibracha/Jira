@@ -1,0 +1,78 @@
+jira.IssueLayout test_proj_three_TP3__Software_Development_Bug_Screen@bbufssss {
+  projectId = jira.Project.instance.test_proj_three@b
+  extraDefinerId = jira.Screen.instance.TP3__Software_Development_Bug_Screen@fssss
+  issueLayoutConfig = {
+    items = [
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Assignee__user
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Reporter__user
+      },
+      {
+        type = "FIELD"
+        sectionType = "PRIMARY"
+        key = jira.Field.instance.Labels__array
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Story_Points__float__c@suuuu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Original_estimate__number@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Time_tracking__timetracking@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Epic_Link__gh_epic_link__c@suubbuu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Components__array
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Fix_versions__array@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Affects_versions__array@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Due_date__date@suu
+      },
+      {
+        type = "FIELD"
+        sectionType = "SECONDARY"
+        key = jira.Field.instance.Priority__priority
+      },
+      {
+        type = "FIELD"
+        sectionType = "CONTENT"
+        key = jira.Field.instance.Description__string
+      },
+      {
+        type = "FIELD"
+        sectionType = "CONTENT"
+        key = jira.Field.instance.Environment__string
+      },
+    ]
+  }
+}

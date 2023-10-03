@@ -1,0 +1,162 @@
+jira.Workflow IdoWorkflow {
+  description = ""
+  transitions = {
+    Create__From__none__Initial@fffsff = {
+      name = "Create"
+      description = ""
+      to = jira.Status.instance.open
+      type = "initial"
+      rules = {
+        validators = [
+          {
+            type = "PermissionValidator"
+            configuration = {
+              permissionKey = "CREATE_ISSUES"
+            }
+          },
+        ]
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Issue_Created@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      from = [
+        {
+          sourceAngle = 78.11134196037203
+          targetAngle = 173.58734576006634
+        },
+      ]
+    }
+    Start__From__Open__Directed@fffsff = {
+      name = "Start"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.open
+          sourceAngle = 173.58734576006634
+          targetAngle = 3.457613863747836
+        },
+      ]
+      to = jira.Status.instance.in_progress@s
+      type = "directed"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+    Done__From__In_progress__Directed@fffssff = {
+      name = "Done"
+      description = ""
+      from = [
+        {
+          id = jira.Status.instance.in_progress@s
+          sourceAngle = 176.06853895443763
+          targetAngle = 5.207302297233845
+        },
+      ]
+      to = jira.Status.instance.done
+      type = "directed"
+      rules = {
+        postFunctions = [
+          {
+            type = "FireIssueEventFunction"
+            configuration = {
+              event = {
+                id = jira.IssueEvent.instance.Generic_Event@s
+              }
+            }
+          },
+          {
+            type = "UpdateIssueCustomFieldPostFunction"
+            configuration = {
+              mode = "replace"
+              fieldId = jira.Field.instance.a_b__float__c@ruuuu
+              fieldValue = "b\"a"
+            }
+          },
+        ]
+      }
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+    }
+  }
+  statuses = [
+    {
+      id = jira.Status.instance.done
+      name = "Done"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 385.109375
+        y = 172.4
+      }
+    },
+    {
+      id = jira.Status.instance.in_progress@s
+      name = "In progress"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 483.796875
+        y = 255.4
+      }
+    },
+    {
+      id = jira.Status.instance.open
+      name = "Open"
+      properties = [
+        {
+          key = "jira.issue.editable"
+          value = "true"
+        },
+      ]
+      location = {
+        x = 759.109375
+        y = 259.4
+      }
+    },
+  ]
+  name = "IdoWorkflow"
+  diagramInitialEntry = {
+    x = 784
+    y = 67.4
+  }
+}

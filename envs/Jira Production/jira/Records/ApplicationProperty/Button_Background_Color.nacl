@@ -1,0 +1,7 @@
+jira.ApplicationProperty Button_Background_Color@s {
+  id = "jira.lf.hero.button.base.bg.colour"
+  value = "#354062"
+  name = "Button Background Color"
+  type = "colour"
+  defaultValue = "#3b7fc4"
+}

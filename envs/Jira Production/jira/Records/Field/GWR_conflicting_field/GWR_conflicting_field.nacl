@@ -1,0 +1,10 @@
+jira.Field GWR_conflicting_field__textfield__c@ssuuuu {
+  name = "GWR conflicting field"
+  description = ""
+  searcherKey = "com.atlassian.jira.plugin.system.customfieldtypes:textsearcher"
+  type = "com.atlassian.jira.plugin.system.customfieldtypes:textfield"
+  contexts = [
+    jira.CustomFieldContext.instance.GWR_conflicting_field__textfield__c_ssuuuu_Default_Configuration_Scheme_for_GWR_conflicting_field@uuuuuumussssss,
+  ]
+  _alias = "GWR conflicting field"
+}

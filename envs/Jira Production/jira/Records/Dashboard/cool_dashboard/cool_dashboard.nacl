@@ -1,0 +1,26 @@
+jira.Dashboard cool_dashboard@s {
+  description = ""
+  name = "cool dashboard"
+  owner = {
+    id = "62ebc187e50f2f2a395557cc"
+    displayName = "Shay Cohen"
+  }
+  sharePermissions = [
+    {
+      type = "group"
+      group = {
+        name = jira.Group.instance.jira_software_users@b
+      }
+    },
+    {
+      type = "project-unknown"
+    },
+  ]
+  layout = "AA"
+  gadgets = [
+    jira.DashboardGadget.instance.cool_dashboard_s__Assigned_to_Me_0_0@umuussuu,
+    jira.DashboardGadget.instance.cool_dashboard_s__Activity_Stream_0_1@umuusuu,
+    jira.DashboardGadget.instance.cool_dashboard_s__Average_Age_Chart_1_0@umuussuu,
+    jira.DashboardGadget.instance.cool_dashboard_s__Average_Time_in_Status_1_1@umuusssuu,
+  ]
+}

@@ -1,0 +1,7 @@
+jira.ApplicationProperty jira_lf_favicon_url@v {
+  id = "jira.lf.favicon.url"
+  value = "/jira-favicon-scaled.png"
+  name = "jira.lf.favicon.url"
+  type = "string (url)"
+  defaultValue = "/favicon.ico"
+}

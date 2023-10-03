@@ -1,0 +1,16 @@
+envs {
+  envs = [
+    {
+      name = "JiraDc8"
+      accountToServiceName = {
+        jira = "jira"
+      }
+    },
+    {
+      name = "Jira Production"
+      accountToServiceName = {
+        jira = "jira"
+      }
+    },
+  ]
+}

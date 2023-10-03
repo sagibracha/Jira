@@ -1,0 +1,4 @@
+jira.WorkflowScheme validatorworkflow {
+  name = "validatorworkflow"
+  defaultWorkflow = jira.Workflow.instance.jira
+}

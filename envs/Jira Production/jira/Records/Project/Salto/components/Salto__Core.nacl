@@ -1,0 +1,8 @@
+jira.ProjectComponent Salto__Core {
+  name = "Core"
+  assigneeType = "PROJECT_DEFAULT"
+  _parent = [
+    jira.Project.instance.Salto,
+  ]
+  _alias = "Salto:Core"
+}

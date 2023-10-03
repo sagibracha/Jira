@@ -1,0 +1,5 @@
+jira.Status pending {
+  name = "Pending"
+  statusCategory = jira.StatusCategory.instance.To_Do@s
+  description = "Typically indicates a new ticket waiting to be prioritised"
+}
